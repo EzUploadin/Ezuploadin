@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Express 2012 for Windows Desktop
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EzUploadin", "EzUploadin\EzUploadin.csproj", "{131FB837-C3C2-422A-98CF-76B5B5D03DDC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EzUploader", "EzUploader\EzUploader.csproj", "{A4F96338-A694-4FA8-9703-A03387545315}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{131FB837-C3C2-422A-98CF-76B5B5D03DDC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{131FB837-C3C2-422A-98CF-76B5B5D03DDC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{131FB837-C3C2-422A-98CF-76B5B5D03DDC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{131FB837-C3C2-422A-98CF-76B5B5D03DDC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A4F96338-A694-4FA8-9703-A03387545315}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A4F96338-A694-4FA8-9703-A03387545315}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A4F96338-A694-4FA8-9703-A03387545315}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A4F96338-A694-4FA8-9703-A03387545315}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

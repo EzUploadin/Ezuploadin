@@ -3,6 +3,11 @@ using System.IO;
 
 namespace EzUploadin
 {
+    internal class Settings
+    {
+        internal static string URL = "http://sys.ezupload.in";
+        internal static string ServerName = "EzUploadin";
+    }
     internal class Generic
     {
         internal static string CurDir = Path.GetDirectoryName(
@@ -18,13 +23,18 @@ namespace EzUploadin
             {
                 return File.Exists(DatFile);
             }
-            set;
+            set{}
         }
 
     }
 
     internal class URLs
     {
-        internal static string LOGIN = "/login.php";
+        internal static string AUTH = "/auth.php";
+    }
+
+    class Info
+    {
+        public static string version = "0.1";
     }
 }
